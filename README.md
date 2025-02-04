@@ -1,6 +1,6 @@
 # ECG Classification Models
 
-This repository contains two ECG classification projects utilizing deep learning models for classifying ECG heartbeats into various categories. Below is an overview of the two models included in the repository.
+This repository contains two deep learning models for ECG classification: one using a CNN-LSTM architecture trained on the MIT-BIH Arrhythmia dataset for multi-class classification, and another using CNN and BiLSTM layers on the PTB Diagnostic ECG Database for binary classification of normal and abnormal ECG signals.
 
 ## 1. MIT-BIH ECG Classification using CNN-LSTM Model
 Classifies ECG heartbeats using the MIT-BIH Arrhythmia dataset. The model leverages CNN for feature extraction and LSTM for sequence modeling.
